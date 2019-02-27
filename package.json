@@ -3,14 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@storybook/addon-storyshots": "^4.1.13",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-redux": "^6.0.1",
     "react-scripts": "2.1.5",
-    "react-test-renderer": "^16.8.3",
-    "require-context.macro": "^1.0.4",
-    "storybook-chromatic": "^1.2.6"
+    "react-test-renderer": "^16.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,11 +28,15 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^4.1.13",
-    "@storybook/addon-actions": "^4.1.13",
-    "@storybook/addon-links": "^4.1.13",
-    "@storybook/addons": "^4.1.13",
+    "babel-loader": "^8.0.5",
     "@babel/core": "^7.3.4",
-    "babel-loader": "^8.0.5"
+    "@storybook/addon-actions": "^4.1.13",
+    "@storybook/addon-knobs": "^4.1.13",
+    "@storybook/addon-links": "^4.1.13",
+    "@storybook/addon-storyshots": "^4.1.13",
+    "@storybook/addons": "^4.1.13",
+    "@storybook/react": "^4.1.13",
+    "require-context.macro": "^1.0.4",
+    "storybook-chromatic": "^1.2.6"
   }
 }
