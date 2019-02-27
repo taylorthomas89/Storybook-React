@@ -5,7 +5,7 @@ import Task from './Task';
 import { connect } from 'react-redux';
 import { archiveTask, pinTask } from './../lib/redux';
 
-export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
+export const PureTaskList = ({ loading, tasks, onPinTask, onArchiveTask }) => {
   const events = {
     onPinTask,
     onArchiveTask,
